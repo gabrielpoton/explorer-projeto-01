@@ -1,0 +1,38 @@
+:root {
+  /* Colors */
+  --color-1: #FF9900;
+  --color-2: #7D7987;
+  --color-3: #ECEFF2;
+
+  /* Font-families */
+  --font-family-1: 'Open Sans', sans-serif;
+  --font-family-2: 'Inter', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url("../img/balls.svg");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  font-family: var(--font-family-1);
+  font-size: 1.6rem;
+  min-height: 100vh;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+b {
+  font-weight: 700;
+}
